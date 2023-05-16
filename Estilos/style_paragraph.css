@@ -1,0 +1,75 @@
+:root{
+    --color-base:#333333;
+    --color-hover:#FF566E;
+}
+
+h1{
+    text-align: center;
+    font-size: 6vw;
+}
+
+p{
+    width: 90%;
+    text-align: center;
+    margin: 1vh auto;
+    font-size: 0.7rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_ribbon_download_app{
+    display: flex;
+    width:auto;
+    margin: 2vh auto;
+}
+
+.button_ribbon_download_app a{
+    height: 3vh;
+    font-size: 0.6rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.button_ribbon_download_app img{
+    height: 2vh;
+    background: var(--color-hover);
+    margin-right: 1vw;
+}
+
+.button_ribbon_download_app a:link{
+    border: 2px solid var(--color-hover);
+    color: white;
+    border-radius: 25px;
+    padding: 5px 3vw;
+    margin-left: 2vw;
+}
+
+.button_ribbon_download_app a:visited{
+    color:white;
+    background: var(--color-hover);
+}
+
+.main_section_image{
+    width: 80vw;
+    margin: 6vh auto;
+    z-index: 2;
+    background-color: transparent;
+}
+
+#tab_description{
+    display:flex;
+    flex-direction: row;
+    margin: 12vh auto;
+}
+
+#tab_description img{    
+    width:50%;
+}
+
+
+

@@ -1,19 +1,52 @@
+:root{
+    --color-base:#333333;
+    --color-hover:#FF566E;
+}
+
 *{
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #F7FAFD;
+    font-family: 'Open Sans', sans-serif;    
+    padding: 0;
     margin: 0 auto;
-    padding:0;
+    text-decoration: none;
+    z-index:3;
+}
+
+* a:link{
+    color: var(--color-base);
+}
+
+* a:visited{
+    color: var(--color-base);
+    font-weight: bolder;
 }
 
 header{
     height: 10vh;
-    border: 3px solid black;
     display: flex;
     align-items: center;
-    position:fixed;
+    position: fixed;
+    top: 0;
     width: 100%;
+    margin: 0 auto;
+    z-index:4;
     
 }
 
+nav{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+    align-items: center; 
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: var(--color-base);
+}
 
+main{
+    margin: 20vh auto;
+    width: 80vw;  
+}
 

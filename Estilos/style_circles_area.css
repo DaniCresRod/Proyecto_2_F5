@@ -1,0 +1,63 @@
+:root{
+    --color-base:#333333;
+    --color-hover:#FF566E;
+}
+
+.circles_area{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    row-gap: 5vh;
+    gap: 5vw;
+    font-size: 0.75rem;
+}
+
+.circles_area img{
+    border-radius: 50%;
+    height: 8vh;
+    padding: 1vh;
+}
+
+.circles_area a{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    height: 12vh;
+
+    text-align: center;
+}
+
+.circles_area :nth-child(1) img{
+    background-color: #A073E930;
+}
+
+.circles_area :nth-child(2) img{    
+    height: 6vh;
+    background-color: #18C38930;
+    padding: 2vh;
+}
+
+.circles_area :nth-child(3) img{
+    height: 6vh;
+    background-color: #FF566E30;
+    padding: 2vh;
+}
+
+.circles_area :nth-child(4) img{
+    height: 6vh;
+    background-color: #FFAA1130;
+    padding: 2vh;
+}
+
+.circles_area :nth-child(5) img{
+    height: 6vh;
+    background-color: #46B0E530;    
+    padding: 2vh;
+}
+
+
+
+
+
