@@ -15,6 +15,16 @@ p{
     font-size: 0.7rem;
 }
 
+.tab_description_inner_text{
+    width: 90%;
+    text-align: left;
+    margin: 1vh 0;
+    font-size: 0.7rem;
+    list-style-type:square;
+    list-style-position: inside;
+    line-height:2vh;
+}
+
 section{
     display: flex;
     flex-direction: column;
@@ -27,12 +37,14 @@ section{
     margin: 2vh auto;
 }
 
-.button_ribbon_download_app a{
+.button_ribbon_download_app a, .lonely_button_link{
     height: 3vh;
     font-size: 0.6rem;
     font-weight: bold;
     display: flex;
     align-items: center;
+    width:fit-content;
+    background: var(--color-hover);
 }
 
 .button_ribbon_download_app img{
@@ -41,15 +53,16 @@ section{
     margin-right: 1vw;
 }
 
-.button_ribbon_download_app a:link{
+.button_ribbon_download_app a:link, .lonely_button_link:link{
     border: 2px solid var(--color-hover);
     color: white;
     border-radius: 25px;
     padding: 5px 3vw;
-    margin-left: 2vw;
+    margin-right:2vw;
+    margin-left:0;
 }
 
-.button_ribbon_download_app a:visited{
+.button_ribbon_download_app a:visited, .lonely_button_link:visited{
     color:white;
     background: var(--color-hover);
 }
@@ -58,18 +71,31 @@ section{
     width: 80vw;
     margin: 6vh auto;
     z-index: 2;
-    background-color: transparent;
 }
 
 #tab_description{
-    display:flex;
+    display: flex;
     flex-direction: row;
     margin: 12vh auto;
 }
 
-#tab_description img{    
-    width:50%;
+#tab_description img{
+    display:flex;
+    padding: 0 2vw;
+    flex-grow: 1;
+    width: 45%;
+    align-self: flex-start;
 }
+
+#tab_description div{
+    display:flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 0 0 3vh 3vw;    
+    flex-grow: 1;
+}
+
+
 
 
 
