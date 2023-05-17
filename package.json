@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "sass": "^1.62.1"
+  },
+  "scripts": {
+    "sass-watch": "npx sass --watch src/sass/styles.scss:Estilos/style_sass.css",
+    "sass-watch": "npx sass --watch src/sass/:Estilos/"
+  }
+}
