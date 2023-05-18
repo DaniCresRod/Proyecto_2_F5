@@ -29,6 +29,13 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;      
+    margin: 0 auto;
+    width:80vw; 
+}
+
+section img :first-child{
+    width:80%;
 }
 
 .button_ribbon_download_app{
