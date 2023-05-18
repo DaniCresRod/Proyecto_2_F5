@@ -1,5 +1,59 @@
 #tab_features {
-  background: red;
+  width: 99vw;
+  background-color: #E5EDF5;
+  display: flex;
+  flex-direction: row;
+}
+#tab_features img {
+  display: flex;
+  padding: 0 2vw 0 0;
+  width: 40%;
+  align-self: flex-start;
+  margin-top: 5vh;
+}
+#tab_features article {
+  display: flex;
+  flex-direction: column;
+  padding: 3vh 0 0 3vw;
+  justify-content: left;
+  align-self: start;
+  margin: 2vh 3vw;
+  font-size: 0.7rem;
+}
+#tab_features article div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
+  gap: 2vw;
+  margin: 3vh 0;
+}
+#tab_features article div a {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  font-weight: bold;
+  padding: 1vh 2vw;
+}
+#tab_features article div a :hover {
+  background: bottom_hover_1;
+}
+#tab_features article div a img {
+  display: block;
+  height: 2vh;
+  object-fit: contain;
+  align-self: baseline;
+  padding: 0 1vw 0 0;
+  margin-top: 0;
+}
+#tab_features article p {
+  text-align: left;
+  margin: 0;
+}
+#tab_features article ul {
+  list-style-image: url(/Public/images/list_bullet.png);
+  width: 80%;
+  list-style-position: inside;
 }
 
 #tab_user_testimonials {
@@ -45,11 +99,12 @@
 }
 
 #tab_users_ratings_wrapup {
+  width: 99vw;
   background: #E5EDF5;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 10vh 10vw;
+  padding: 10vh 0;
   z-index: 3;
   position: relative;
 }
@@ -68,6 +123,9 @@
   background: none;
 }
 
+footer {
+  margin: 0;
+}
 footer section {
   display: flex;
   flex-direction: row;
