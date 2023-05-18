@@ -2,7 +2,7 @@
   "devDependencies": {
     "sass": "^1.62.1"
   },
-  "scripts": {    
+  "scripts": {
     "sass-watch": "npx sass --watch src/sass/:Public/Estilos/"
   }
 }
