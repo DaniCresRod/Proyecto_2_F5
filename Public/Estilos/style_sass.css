@@ -2,4 +2,94 @@
   background: red;
 }
 
+#tab_user_testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#tab_user_testimonials h2 {
+  grid-column: span 3;
+  text-align: center;
+}
+#tab_user_testimonials article {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 7vh 0 10vh 0;
+}
+#tab_user_testimonials article .tab_users_ratings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#tab_user_testimonials article .tab_users_ratings img {
+  height: 3vh;
+}
+#tab_user_testimonials article hr {
+  width: 50%;
+}
+#tab_user_testimonials article p:last-child {
+  font-weight: bold;
+}
+#tab_user_testimonials .tab_users_partners {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
+  column-gap: 3vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-column: span 3;
+}
+#tab_user_testimonials .tab_users_partners img {
+  margin: 0;
+}
+
+#tab_users_ratings_wrapup {
+  background: #E5EDF5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10vh 10vw;
+  z-index: 3;
+  position: relative;
+}
+#tab_users_ratings_wrapup a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  font-weight: normal;
+}
+#tab_users_ratings_wrapup a span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#tab_users_ratings_wrapup a img {
+  background: none;
+}
+
+footer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3vw;
+}
+footer section ul {
+  list-style-position: inside;
+  font-size: 0.7rem;
+  list-style-type: none;
+}
+footer section ul li {
+  display: flex;
+  align-items: center;
+  margin: 1vh 0;
+}
+footer section ul li img {
+  height: 2vh;
+  width: 2vw;
+  object-fit: contain;
+  justify-self: center;
+  margin-right: 1vw;
+}
+
 /*# sourceMappingURL=style_sass.css.map */
