@@ -25,11 +25,7 @@ p{
     line-height:2vh;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .button_ribbon_download_app{
     display: flex;
@@ -87,7 +83,7 @@ section{
     align-self: flex-start;
 }
 
-#tab_description div{
+#tab_description article{
     display:flex;
     flex-direction: column;
     align-self: flex-start;
