@@ -65,3 +65,13 @@ Productividad: Se valorará el desarrollo de los extras entregados en esta prueb
 <b>Tecnologias usadas</b>
 
 HTML, CSS (+SASS), JavaScript
+
+<b>Como ejecutar el proyecto</b>
+
+-Será necesario disponer del codigo fuente y un navegador compatible en el ordenador
+
+-En la estructura de archivos buscaremos el archivo index.html situado en la carpeta Public
+
+-Ejecutar el archivo
+
+La web se ha diseñado pensando en que sea adaptable a cualquier resolucion de pantalla desde un minimo de 200px de ancho, y se ha probado en Desktop, Iphone SX, Ipad, Samsun Galaxy Flip y otras resoluciones
