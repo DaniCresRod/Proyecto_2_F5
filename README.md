@@ -75,3 +75,5 @@ HTML, CSS (+SASS), JavaScript
 -Ejecutar el archivo
 
 La web se ha diseñado pensando en que sea adaptable a cualquier resolucion de pantalla desde un minimo de 200px de ancho, y se ha probado en Desktop, Iphone SX, Ipad, Samsun Galaxy Flip y otras resoluciones
+
+se puede acceder desde <a>https://danicresrod.github.io/Proyecto_2_F5/Public/index.html</a>
