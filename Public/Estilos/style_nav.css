@@ -26,15 +26,11 @@ nav ul{
     align-items: center;
 }
 
-nav a:link{
+nav a{
     text-decoration: none;
     color:var(--color-base);
 }
-/*
-.nav_option a:visited{
-    color:var(--color-base);
-}
-*/
+
 .nav_option a:hover{
     color:var(--color-hover);
 }
