@@ -1,6 +1,6 @@
 # Proyecto_2_F5
 
-Direccion del sitio: <a>https://danicresrod.github.io/Proyecto_2_F5/Public/index.html</a>
+Direccion del sitio: <a href:"https://danicresrod.github.io/Proyecto_2_F5/Public/index.html" target:"_blank">https://danicresrod.github.io/Proyecto_2_F5/Public/index.html</a>
 
 Autor: Daniel Crespo Rodriguez
 
@@ -80,4 +80,4 @@ HTML, CSS (+SASS), JavaScript
 
 La web se ha diseñado pensando en que sea adaptable a cualquier resolucion de pantalla desde un minimo de 200px de ancho, y se ha probado en Desktop, Iphone SX, Ipad, Samsun Galaxy Flip y otras resoluciones
 
-Se puede acceder al sitio desde <a>https://danicresrod.github.io/Proyecto_2_F5/Public/index.html</a>
+Se puede acceder al sitio desde <a href:"https://danicresrod.github.io/Proyecto_2_F5/Public/index.html" target:"_blank">https://danicresrod.github.io/Proyecto_2_F5/Public/index.html</a>
