@@ -7,14 +7,16 @@ $bottom_hover_1: #8F5CE3;
     background-color: $background_color_2;
     display: flex;
     flex-direction: row; 
-    justify-content: center;  
+    justify-content: center;
+    flex-wrap: wrap;  
 
-    img{
+    >img{
         display:flex;
         padding: 0 2vw 0 0;
-        width: 40%;
+        width: 40vw;
         align-self:flex-start;
         margin-top: 5vh;
+        margin-bottom: 10vh;
     }
 
     article{
@@ -24,8 +26,8 @@ $bottom_hover_1: #8F5CE3;
         justify-content: left;
         align-self: start;
 
-        margin: 2vh 3vw;
-        font-size: 0.7rem;        
+        margin: 2vh 0 0 3vw;
+        font-size: 0.7rem;       
 
         div{
             display: flex;
@@ -33,7 +35,8 @@ $bottom_hover_1: #8F5CE3;
             flex-direction: row;
             justify-content :left;
             gap: 2vw;
-            margin:3vh 0;
+            margin:3vh 0; 
+            width: 40vw;           
 
             a:hover{
                 background: $bottom_hover_1;
@@ -61,22 +64,24 @@ $bottom_hover_1: #8F5CE3;
         p{
             text-align: left;
             margin:0;
+            width: 40vw;
+            min-width: 250px;
         }
 
         ul{
             list-style-image: url(/Public/images/list_bullet.png);
-            width: 80%;
+            width: 40vw;
             list-style-position: inside;      
-            
+            min-width: 250px;
         }
     }
 }
 
 #tab_user_testimonials{   
     display:grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3,  1fr); 
     align-items: start;
-    margin: 15vh auto;   
+    margin: 10vh auto;   
 
     h2{
         grid-column: span 3;
@@ -88,7 +93,7 @@ $bottom_hover_1: #8F5CE3;
         flex-direction: column; 
         gap:2vh; 
         padding: 7vh 0 10vh 0; 
-                      
+                     
 
         .tab_users_ratings{
             display: flex; 
@@ -135,6 +140,7 @@ $bottom_hover_1: #8F5CE3;
     align-items: center;
     padding: 10vh 0;
     z-index: 3;
+    
 
     a{
         display:flex;
@@ -142,6 +148,7 @@ $bottom_hover_1: #8F5CE3;
         align-items: center;
         height: auto;
         font-weight: normal;
+        color: #333333;
 
         span{
             font-size: 2.5rem;
@@ -158,12 +165,15 @@ $bottom_hover_1: #8F5CE3;
 footer{
     margin: 0 auto;
     width: 90vw;
+    border-top: 1px solid #33333320;
+    padding-top: 5vh;
     
     section{
         display:flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: start;
+        flex-wrap: wrap;
         gap:2vw;
         
         ul{
@@ -193,6 +203,7 @@ footer{
             flex-direction: row;
             justify-content: left;            
             flex-wrap: wrap;
+            width:fit-content;
 
             a img{
                     
@@ -205,6 +216,7 @@ footer{
     h6{
         width: 100%;
         text-align: center;
+        margin-bottom: 5vh;
     }
 
 }

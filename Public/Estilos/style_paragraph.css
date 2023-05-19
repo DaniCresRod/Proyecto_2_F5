@@ -26,6 +26,7 @@ p{
     font-size: 0.7rem;
     list-style-type:square;
     list-style-position: inside;
+    min-width: 250px;
 }
 
 section{
@@ -110,13 +111,13 @@ section img :first-child{
     display: flex;
     flex-direction: row;
     margin: 12vh auto;
+    flex-wrap: wrap-reverse;
 }
 
-#tab_description img{
-    display:flex;
+#tab_description>img{
+    display: flex;
     padding: 0 2vw;
-    flex-grow: 1;
-    width: 40%;
+    width: 35vw;
     align-self: flex-start;
 }
 
@@ -124,8 +125,9 @@ section img :first-child{
     display:flex;
     flex-direction: column;
     align-self: flex-start;
-    padding: 0 0 3vh 3vw;    
-    flex-grow: 1;
+    padding: 0 0 3vh 3vw;
+    width: 30vw;
+    min-width: 250px;  
 }
 
 .circles_area a img:hover{

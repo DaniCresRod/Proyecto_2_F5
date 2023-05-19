@@ -4,13 +4,15 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
-#tab_features img {
+#tab_features > img {
   display: flex;
   padding: 0 2vw 0 0;
-  width: 40%;
+  width: 40vw;
   align-self: flex-start;
   margin-top: 5vh;
+  margin-bottom: 10vh;
 }
 #tab_features article {
   display: flex;
@@ -18,7 +20,7 @@
   padding: 3vh 0 0 3vw;
   justify-content: left;
   align-self: start;
-  margin: 2vh 3vw;
+  margin: 2vh 0 0 3vw;
   font-size: 0.7rem;
 }
 #tab_features article div {
@@ -28,6 +30,7 @@
   justify-content: left;
   gap: 2vw;
   margin: 3vh 0;
+  width: 40vw;
 }
 #tab_features article div a:hover {
   background: #8F5CE3;
@@ -51,18 +54,21 @@
 #tab_features article p {
   text-align: left;
   margin: 0;
+  width: 40vw;
+  min-width: 250px;
 }
 #tab_features article ul {
   list-style-image: url(/Public/images/list_bullet.png);
-  width: 80%;
+  width: 40vw;
   list-style-position: inside;
+  min-width: 250px;
 }
 
 #tab_user_testimonials {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
-  margin: 15vh auto;
+  margin: 10vh auto;
 }
 #tab_user_testimonials h2 {
   grid-column: span 3;
@@ -119,6 +125,7 @@
   align-items: center;
   height: auto;
   font-weight: normal;
+  color: #333333;
 }
 #tab_users_ratings_wrapup a span {
   font-size: 2.5rem;
@@ -132,12 +139,15 @@
 footer {
   margin: 0 auto;
   width: 90vw;
+  border-top: 1px solid rgba(51, 51, 51, 0.1254901961);
+  padding-top: 5vh;
 }
 footer section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
+  flex-wrap: wrap;
   gap: 2vw;
 }
 footer section ul {
@@ -163,6 +173,7 @@ footer section #social_networks {
   flex-direction: row;
   justify-content: left;
   flex-wrap: wrap;
+  width: fit-content;
 }
 footer section #social_networks a img {
   margin-top: 0;
@@ -171,6 +182,7 @@ footer section #social_networks a img {
 footer h6 {
   width: 100%;
   text-align: center;
+  margin-bottom: 5vh;
 }
 
 /*# sourceMappingURL=style_sass.css.map */
