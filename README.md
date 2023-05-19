@@ -1,6 +1,6 @@
 # Proyecto_2_F5
 
-Direccion del sitio: <a>https://danicresrod.github.io/Proyecto_2_F5/Public/index.html</a>
+Direccion del sitio: [https://danicresrod.github.io/Proyecto_2_F5/Public/index.html](https://danicresrod.github.io/Proyecto_2_F5/Public/index.html)
 
 Autor: Daniel Crespo Rodriguez
 
@@ -80,4 +80,14 @@ HTML, CSS (+SASS), JavaScript
 
 La web se ha diseñado pensando en que sea adaptable a cualquier resolucion de pantalla desde un minimo de 250px de ancho, y se ha probado en Desktop, Iphone SX, Ipad, Samsun Galaxy Flip y otras resoluciones
 
-Se puede acceder al sitio desde <a>https://danicresrod.github.io/Proyecto_2_F5/Public/index.html</a>
+Se ha usado JS para cambios de color en la zona del navegador, principalmente (segun se hace scroll para las diferentes secciones, para el cambio de imagen de la flechita de extras y el de los botones de la zona de calendario)).
+
+Se ha usado SASS a partir del dia de la formacion para completar una parte del proyecto, como practica didactica.
+
+Se han mantenido los comentarios en JS como práctica didactica.
+
+Se han incluido animaciones CSS muy sutiles para no afectar la estetica general del sitio.
+
+Queda pendiente el uso de Media Queries para mejorar la legibilidad de los comentarios y footer en resoluciones bajas
+
+Se puede acceder al sitio desde [https://danicresrod.github.io/Proyecto_2_F5/Public/index.html](https://danicresrod.github.io/Proyecto_2_F5/Public/index.html)
