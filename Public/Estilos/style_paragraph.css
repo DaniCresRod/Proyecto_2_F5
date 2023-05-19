@@ -15,6 +15,10 @@ p{
     font-size: 0.7rem;
 }
 
+.js_tab_scroll_find{
+    color:#FF566E;
+}
+
 .tab_description_inner_text{  
     width: 80%;
     text-align: left;
@@ -73,6 +77,10 @@ section img :first-child{
     background: var(--color-hover);
 }
 
+.button_ribbon_download_app a:hover, .lonely_button_link:hover, #dropdown :last-child :hover{    
+    box-shadow: 0px 0px 5px 2px violet;
+}
+
 .main_section_image{
     width: 80vw;
     margin: 6vh auto;
@@ -119,6 +127,16 @@ section img :first-child{
     padding: 0 0 3vh 3vw;    
     flex-grow: 1;
 }
+
+.circles_area a img:hover{
+    animation-name: meneillo;
+    animation-duration: 0.25s;
+    animation-iteration-count: 4;
+    animation-play-state: running;
+    animation-direction:alternate-reverse;
+}
+
+
 
 
 

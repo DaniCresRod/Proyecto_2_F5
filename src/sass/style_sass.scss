@@ -72,10 +72,11 @@ $bottom_hover_1: #8F5CE3;
     }
 }
 
-#tab_user_testimonials{    
+#tab_user_testimonials{   
     display:grid;
     grid-template-columns: repeat(3, 1fr); 
-    align-items: start;   
+    align-items: start;
+    margin: 15vh auto;   
 
     h2{
         grid-column: span 3;
@@ -166,7 +167,6 @@ footer{
         gap:2vw;
         
         ul{
-            /*width: 30vw;*/
             list-style-position: inside;
             font-size: 0.6rem;
             list-style-type: none;            
