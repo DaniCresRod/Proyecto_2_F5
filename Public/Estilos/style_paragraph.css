@@ -9,20 +9,19 @@ h1{
 }
 
 p{
-    width: 90%;
+    width: 80%;
     text-align: center;
     margin: 1vh auto;
     font-size: 0.7rem;
 }
 
-.tab_description_inner_text{
-    width: 90%;
+.tab_description_inner_text{  
+    width: 80%;
     text-align: left;
     margin: 1vh 0;
     font-size: 0.7rem;
     list-style-type:square;
     list-style-position: inside;
-    line-height:2vh;
 }
 
 section{
@@ -90,7 +89,7 @@ section img :first-child{
     display:flex;
     padding: 0 2vw;
     flex-grow: 1;
-    width: 45%;
+    width: 40%;
     align-self: flex-start;
 }
 
