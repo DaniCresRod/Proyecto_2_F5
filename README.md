@@ -88,4 +88,6 @@ Se han mantenido los comentarios en JS como práctica didactica.
 
 Se han incluido animaciones CSS muy sutiles para no afectar la estetica general del sitio.
 
+Queda pendiente el uso de Media Queries para mejorar la legibilidad de los comentarios y footer en resoluciones bajas
+
 Se puede acceder al sitio desde [https://danicresrod.github.io/Proyecto_2_F5/Public/index.html](https://danicresrod.github.io/Proyecto_2_F5/Public/index.html)
