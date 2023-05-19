@@ -79,6 +79,25 @@ section img :first-child{
     z-index: 2;
 }
 
+@keyframes meneillo {
+    from{
+        transform: rotate(5deg);
+    }
+    
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+.main_section_image:hover{
+    animation-name: meneillo;
+    animation-duration: 0.25s;
+    animation-iteration-count: 4;
+    animation-play-state: running;
+    animation-direction:alternate-reverse;    
+}
+
+
 #tab_description{
     display: flex;
     flex-direction: row;
