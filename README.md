@@ -80,4 +80,12 @@ HTML, CSS (+SASS), JavaScript
 
 La web se ha diseñado pensando en que sea adaptable a cualquier resolucion de pantalla desde un minimo de 200px de ancho, y se ha probado en Desktop, Iphone SX, Ipad, Samsun Galaxy Flip y otras resoluciones
 
+Se ha usado JS para cambios de color en la zona del navegador, principalmente (segun se hace scroll para las diferentes secciones, para el cambio de imagen de la flechita de extras y el de los botones de la zona de calendario)).
+
+Se ha usado SASS a partir del dia de la formacion para completar una parte del proyecto, como practica didactica.
+
+Se han mantenido los comentarios en JS como práctica didactica.
+
+Se han incluido animaciones CSS muy sutiles para no afectar la estetica general del sitio.
+
 Se puede acceder al sitio desde [https://danicresrod.github.io/Proyecto_2_F5/Public/index.html](https://danicresrod.github.io/Proyecto_2_F5/Public/index.html)
