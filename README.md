@@ -1,9 +1,11 @@
 # Proyecto_2_F5
 
-Autor: Daniel Crespo Rodriguez</br>
+Autor: Daniel Crespo Rodriguez
+
 Fecha: 19/05/2023
 
-<b>Contexto del proyecto</b></br>
+<b>Contexto del proyecto</b>
+
 ¡Gracias por aplicar a nuestra empresa de consultoría TI!
 
 Nuestra empresa de consultoría fue fundada hace 10 años por un equipo de expertos en tecnología y negocios con el objetivo de ayudar a las empresas a mejorar su rendimiento y optimizar sus procesos. Desde entonces, hemos trabajado con numerosas empresas de diferentes sectores y tamaños, brindándoles soluciones personalizadas que les han permitido aumentar sus ingresos, reducir costos y mejorar la satisfacción del cliente. Actualmente estamos buscando a un desarrollador junior en front-end para que nos ayude en la creación de webs modernas y atractivas para nuestros clientes. Esperamos que esta prueba técnica te permita demostrar tus habilidades y conocimientos.
@@ -76,4 +78,4 @@ HTML, CSS (+SASS), JavaScript
 
 La web se ha diseñado pensando en que sea adaptable a cualquier resolucion de pantalla desde un minimo de 200px de ancho, y se ha probado en Desktop, Iphone SX, Ipad, Samsun Galaxy Flip y otras resoluciones
 
-se puede acceder desde <a>https://danicresrod.github.io/Proyecto_2_F5/Public/index.html</a>
+Se puede acceder al sitio desde <a>https://danicresrod.github.io/Proyecto_2_F5/Public/index.html</a>
